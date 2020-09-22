@@ -51,7 +51,8 @@ end
 
 
 def all_holidays_with_bbq(holiday_hash)
-holiday_hash[:summer]
-holiday_hash[:spring]
-     end
- end
+holiday_hash.each do |season, holiday|
+  if season.include?("BBQ")
+    holiday.keys
+  end
+end
