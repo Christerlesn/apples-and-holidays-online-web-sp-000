@@ -54,5 +54,5 @@ def all_holidays_with_bbq(holiday_hash)
      decoration.include?("BBQ") ? holiday : nil
 
     end
-  end
+  end.flatten
 end
