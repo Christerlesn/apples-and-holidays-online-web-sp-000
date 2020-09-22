@@ -50,15 +50,8 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 
-binding.pry
-
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.map do |season, holiday|
-     holiday.map do |holiday, supply|
-       holiday if supply.include?("BBQ")
-       holiday
+holiday_hash[:summer]
+holiday_hash[:spring]
      end
-   holiday.flatten
- end
- end
  end
