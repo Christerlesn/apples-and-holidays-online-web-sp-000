@@ -36,8 +36,9 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-binding.pry
-holiday_hash[:winter]
+winter_holidays = holiday_hash[:winter].values
+winter_holidays.flatten
+
 end
 
 def all_supplies_in_holidays(holiday_hash)
