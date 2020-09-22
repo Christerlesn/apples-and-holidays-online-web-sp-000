@@ -38,7 +38,6 @@ end
 def all_winter_holiday_supplies(holiday_hash)
 winter_holidays = holiday_hash[:winter].values
 winter_holidays.flatten
-
 end
 
 def all_supplies_in_holidays(holiday_hash)
@@ -51,4 +50,6 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
+binding.pry
+  holiday_hash
 end
